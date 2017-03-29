@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">FirstCode</string>
+    <string name="call">打电话</string>
+    <string name="create_data">创建数据库</string>
+    <string name="car_num">车牌号</string>
+    <string name="car_pw">密码</string>
+    <string name="car_add">添加</string>
+    <string name="car_hint_query">车牌号查询</string>
+    <string name="car_query">查询</string>
+    <string name="car_clear">清空</string>
 </resources>
