@@ -18,19 +18,22 @@
         <activity android:name=".BaseActivity"/>
         <activity android:name=".recylerview.RecylerViewActivity">
         </activity>
-        <activity
-            android:name=".news.NewsActivity"
-            android:screenOrientation="landscape"/>
+        <activity android:name=".news.NewsActivity"/>
         <activity android:name=".news.NewsContentActivity"/>
         <activity android:name=".netstate.NetStateActivity"/>
         <activity android:name=".LitePal.LitePalActivity"/>
         <activity android:name=".Permission.PermissionActivity"/>
-        <activity android:name=".contact.ContactActivity">
+        <activity android:name=".contact.ContactActivity"/>
+        <activity android:name=".design.FruitDetailActivity"
+            android:theme="@style/FruitActivityTheme"></activity>
+        <activity android:name=".design.DesignActivity"
+            android:label="设计">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".media.MediaActivity"/>
     </application>
 
 </manifest>
